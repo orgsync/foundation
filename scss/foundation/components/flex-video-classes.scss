@@ -1,0 +1,5 @@
+@import 'flex-video';
+
+@if $include-html-media-classes {
+  .flex-video { @include flex-video-container; }
+}

@@ -1,0 +1,7 @@
+@import 'tables';
+
+@if $include-html-table-classes {
+  table {
+    @include table;
+  }
+}

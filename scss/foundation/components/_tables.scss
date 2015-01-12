@@ -118,12 +118,3 @@ $table-margin-bottom: rem-calc(20) !default;
   tbody tr td,
   tr td { display: $table-display; line-height: $table-line-height; }
 }
-
-
-@include exports("table") {
-  @if $include-html-table-classes {
-    table {
-      @include table;
-    }
-  }
-}
